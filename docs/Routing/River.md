@@ -7,11 +7,9 @@ flows remain within the banks then there will be little or no attenuation. On th
 the banks onto the floodplain, or is "absorbed" by the channel as bank storage, then the attenuation could be
 significant. The following graphics identify how a hydrograph is lagged and/or attenuated under certain conditions.
 
-<video width="320" height="240" controls>
-  <source src="../Media/Videos/Attenuation_hydrograph.mp4" type="video/mp4">
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Attenuation_hydrograph.mp4" type="video/mp4">
 </video>
-
-![River Routing](../Media/Videos/Attenuation_hydrograph.mp4)
 
 In the next graphic the effects of lag and attenuation are shown simultaneously for a flood hydrograph passing through a
 natural channel reach. As the flows increase beyond the capacity of the natural channel it spreads out onto the
