@@ -7,7 +7,9 @@ level outlets. Spillways are part of any dam construction, but in the case of a 
 may cause flood waters to be temporarily stored, the roadway itself acts as a spillway once the water surface elevation
 reaches the top.
 
-![Storage Outflow Curve](../images/storage_outflow_curve.png)
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Elevation_Discharge.mp4" type="video/mp4">
+</video>
 
 Rating curves for hydraulic control structures like culverts and spillways can be computed from simplified equations
 such as the orifice and weir equations. More sophisticated programs such as HY8 or HEC-RAS can also be used to generate

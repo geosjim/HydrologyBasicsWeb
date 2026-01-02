@@ -18,7 +18,9 @@ the water surface elevation may increase to the point that water spills over an 
 embankment as weir flow. As the flood waters recede the outflow will gradually become less than the inflow and the
 detention basin will empty.
 
-Inswert Image/Video of storage routing here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Storage_routing.mp4" type="video/mp4">
+</video>
 
 In order to numerically simulate storage in a reservoir relationships between elevation and volume of storage and
 elevation and discharge must be defined.

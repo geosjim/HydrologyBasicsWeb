@@ -14,5 +14,8 @@ other words the flow in a river before the rainfall event.
 
 You can move your cursor over words below to better understand these different elements.
 
-![Hydrograph Elements](../images/hydrograph_elements.png)
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Hydrographs.mp4" type="video/mp4">
+</video>
+
 

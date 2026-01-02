@@ -7,9 +7,17 @@ same throughout the entire watershed. All losses, including initial abstractions
 loss coefficient defined between 0.0 (no runoff) and 1.0 (no losses). The only other input variable is the drainage
 area, in acres.
 
-Insert Image/Video of rational method here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Rational.mp4" type="video/mp4">
+</video>
 
 The rational hydrograph is defined as a triangle, with the peak flow occurring at the time of concentration and the
 total duration of the storm being two times the time of concentration.
 
-Insert Image/Video of rational hydrograph here
+![Rational Hydrograph](../Media/Images/Rational_hydrograph.png)
+
+This traditional rational hydrograph assumes that duration of the storm is equal to the time of concentration.  If the duration is longer, the hydrograph shape will change from a triangle to a trapezoid with the corresponding peak flow.
+
+![Extended Rational Hydrograph](../Media/Images/Rational_hydrograph_extended.png)
+
+The rational method is simple and easy to use, but the difficulty in determining a runoff coefficient and the limitation of defining rainfall as a constant intensity make it applicable mostly for small, urban watersheds.

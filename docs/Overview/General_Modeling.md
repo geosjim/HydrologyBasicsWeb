@@ -7,3 +7,7 @@ In general there are two different classes of models, or ways to estimate peak f
 on historical records used in statistical models. In other words we use historical records of stream flows to predict
 what might occur in the future. The second class of models are referred to as deterministic models where physical
 properties about the watershed and stream are used to numerically simulate peak flows.
+
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/General_Modeling.mp4" type="video/mp4">
+</video>

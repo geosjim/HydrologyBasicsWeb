@@ -11,4 +11,6 @@ actually sources to groundwater) and runoff for a high (short duration), medium,
 storm. For each case the total rainfall depth is the same, and equals the sum of the losses and runoff, but the
 different intensities alter the separate volumes of losses and runoff significantly.
 
-Insert Image/Video of effects of temporal distribution on runoff here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Runoff_and_infiltration.mp4" type="video/mp4">
+</video>

@@ -8,7 +8,9 @@ storms where 1) rainfall begins with a shorter period of higher intensity toward
 relatively constant intensity throughout, or 3) a high intensity storm where most of the rainfall occurs over a
 relatively small duration. The animations below illustrate these differences.
 
-Insert Image/Video of NRCS design storms here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Design_storms.mp4" type="video/mp4">
+</video>
 
 The temporal distribution along with a computed depth from gages, a continuous map, or other estimate provides the basis
 for defining rainfall in a HEC-1 or HMS (or similar deterministic) model. Because of interception and infiltration in

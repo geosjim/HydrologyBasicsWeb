@@ -5,6 +5,8 @@ However, just as important as the volume is the timing of the runoff, including 
 duration. The transformation of the effective precipitation into a time variation of runoff is described by a
 hydrograph.
 
-Insert Image/Video of hydrograph here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Transformation.mp4" type="video/mp4">
+</video>
 
 If the effective precipitation is 1 inch, then the resulting hydrograph is referred to as a unit hydrograph.

@@ -5,7 +5,10 @@ continuous. Therefore, a storm is generally entered for a deterministic model us
 time step. For example a tipping bucket rain gage measures a rainfall depth every 10 or 15 minutes and reports the storm
 in this manner. A graphic representation of such an event is referred to as a rainfall hyetograph and is illustrated in
 the figure below.
-![Rainfall Hyetograph](../images/Rainfall_Hyetograph.png)
+
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Hyetograph.mp4" type="video/mp4">
+</video>
 
 A hyetograph is defined as either cumulative or incremental values. For the simulation illustrated above the cumulative
 and incremental values would be as follows:

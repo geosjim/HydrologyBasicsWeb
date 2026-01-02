@@ -6,7 +6,9 @@ watershed, but can be substantially different over just a short distance. While 
 location) map of rainfall depth provides the true representation, as of yet we do not have the capability to accurately
 measure this on the ground.
 
-Insert Image/Video of spatial variation of rainfall here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Actual.mp4" type="video/mp4">
+</video>
 
 The radar rainfall estimates you see on weather maps would appear to be the perfect solution, but they are only
 estimates of where the rainfall is more intense. While they provide a good picture of where it might be raining harder

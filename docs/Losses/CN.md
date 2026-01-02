@@ -34,4 +34,6 @@ watershed then a composite (area-weighted average) CN should be computed. GIS fi
 many areas and can be used to automate composite CN computations. Move your mouse over the animation below to understand
 better how these calculations are performed.
 
-Insert Image/Video of curve number calculations here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/CNCalculations.mp4" type="video/mp4">
+</video>

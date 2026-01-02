@@ -5,6 +5,8 @@ runoff. After the initial abstractions and infiltration capacity are reached the
 inch) would be left standing if the watershed were exactly flat. The volume is easily computed as the effective
 precipitation depth times the area of the watershed.
 
-Insert Image/Video of effective precipitation here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Basin_runoff.mp4" type="video/mp4">
+</video>
 
 However, watersheds are not flat and so the effective precipitation will run off.

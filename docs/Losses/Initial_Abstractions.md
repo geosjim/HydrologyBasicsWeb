@@ -8,4 +8,6 @@ separation of losses between initial abstractions and infiltration, whereas for 
 in the next few pages) traditional practice has been to estimate initial abstractions as 20% of the maximum potential
 losses (or watershed storage).
 
-Insert Image/Video of initial abstractions here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/InitialAbstractions.mp4" type="video/mp4">
+</video>

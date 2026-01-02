@@ -17,4 +17,6 @@ floodplain. As the inflow recedes the flows in the floodplain move back into the
 outflow hydrograph is that it is spread out with a decreased peak and longer base time. The area under each hydrograph
 would be the same except for infiltration losses, which for short flooding events are generally small.
 
-![River Routing Example](../Media/Images/Rational_hydrograph_extended.png)
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Attenuation.mp4" type="video/mp4">
+</video>

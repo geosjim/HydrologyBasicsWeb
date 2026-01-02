@@ -7,3 +7,7 @@ easily measured and incorporated into a numerical model. Further, the driving fo
 hydrologic cycle must be present in a model which aims to reproduce numerically what we observe naturally. The diagram
 below illustrates the basic processes of precipitation, initial abstraction, losses, runoff transformation, storage, and
 routing that are represented in typical numerical models.
+
+![Modeling Overview](../Media/Images/ModelingOverview.png)
+
+The remainder of this lesson provides information about the theories used to represent these basic processes in a simulation model.

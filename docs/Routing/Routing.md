@@ -8,4 +8,4 @@ reach.
 There are two types of routing that will be presented in this section. Storage routing through a detention basin, or
 behind an embankment where a culvert might be present, and river routing through a natural channel reach.
 
-insert Image/Video of routing here
+![SCS Unit Hydrograph](../Media/Images/River_Detention_Routing.png)

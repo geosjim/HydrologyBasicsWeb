@@ -5,6 +5,8 @@ is still used in the simulation for each model, but it is computed by weighting 
 area of influence it has on the watershed. The area of influence is determined from the Thiessen network, which defines
 all of the area that is closest to a given gage.
 
-![Thiessen Polygon Rainfall](../images/Thiessen_Polygon_Rainfall.png)
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Thiessen.mp4" type="video/mp4">
+</video>
 
 The equation is similar to the basin average, but includes the area closest to the gage as a weighting factor.

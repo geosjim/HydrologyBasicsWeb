@@ -13,4 +13,6 @@ concrete of an urban environment and so we would expect more infiltration in for
 the tilling of agricultural lands "loosens" the soil making infiltration higher than in areas where soils are more
 compacted or consolidated. 
 
-Insert Image/Video of different land uses and infiltration here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Infiltration.mp4" type="video/mp4">
+</video>

@@ -13,7 +13,10 @@ first compute each 30-minute runoff hydrograph (15%, 80%, and 25% of the unit hy
 starting the first at time 0, the second at 30 minutes, and the third at 60 minutes we would add them together to get
 the final runoff hydrograph.
 
-Insert Image/Video of convolution example here
+<video controls style="border: 2px solid black">
+  <source src="/Media/Videos/Convolution.mp4" type="video/mp4">
+</video>
+
 
 In summary, to compute the runoff of a watershed we follow these steps:
 

@@ -8,7 +8,7 @@ where historical flows have been measured (black points in the Colorado map) are
 based on characteristic watershed and meteorological variables. When a peak flow estimate is desired for an ungaged
 drainage, the regression equation is used for the region where the ungaged basin is located.
 
-![NSS Regions of Colorado](../images/NSS_Colorado_Regions.png)
+![NSS Regions of Colorado](../Media/Images/NSS.png)
 
 For example the Colorado equations for the 100 year flood for the different regions are as follows:
 
