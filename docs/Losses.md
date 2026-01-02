@@ -17,7 +17,7 @@ in the next few pages) traditional practice has been to estimate initial abstrac
 losses (or watershed storage).
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/InitialAbstractions.mp4" type="video/mp4">
+  <source src="/static/video/InitialAbstractions.mp4" type="video/mp4">
 </video>
 
 ## Infiltration Losses
@@ -35,7 +35,7 @@ the tilling of agricultural lands "loosens" the soil making infiltration higher 
 compacted or consolidated. 
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Infiltration.mp4" type="video/mp4">
+  <source src="/static/video/Infiltration.mp4" type="video/mp4">
 </video>
 
 ## Simulation Methods
@@ -109,5 +109,5 @@ many areas and can be used to automate composite CN computations. Move your mous
 better how these calculations are performed.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/CNCalculations.mp4" type="video/mp4">
+  <source src="/static/video/CNCalculations.mp4" type="video/mp4">
 </video>

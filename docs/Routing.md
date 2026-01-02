@@ -33,7 +33,7 @@ embankment as weir flow. As the flood waters recede the outflow will gradually b
 detention basin will empty.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Storage_routing.mp4" type="video/mp4">
+  <source src="/static/video/Storage_routing.mp4" type="video/mp4">
 </video>
 
 In order to numerically simulate storage in a reservoir relationships between elevation and volume of storage and
@@ -47,7 +47,7 @@ water between time steps is determined from the input hydrograph, and then from 
 surface elevation is determined.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Storage_capacity.mp4" type="video/mp4">
+  <source src="/static/video/Storage_capacity.mp4" type="video/mp4">
 </video>
 
 Surveys conducted at the time of a dam construction are used to develop a storage capacity curve as part of the overall
@@ -65,7 +65,7 @@ may cause flood waters to be temporarily stored, the roadway itself acts as a sp
 reaches the top.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Elevation_Discharge.mp4" type="video/mp4">
+  <source src="/static/video/Elevation_Discharge.mp4" type="video/mp4">
 </video>
 
 Rating curves for hydraulic control structures like culverts and spillways can be computed from simplified equations
@@ -83,7 +83,7 @@ the banks onto the floodplain, or is "absorbed" by the channel as bank storage, 
 significant. The following graphics identify how a hydrograph is lagged and/or attenuated under certain conditions.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Attenuation_hydrograph.mp4" type="video/mp4">
+  <source src="/static/video/Attenuation_hydrograph.mp4" type="video/mp4">
 </video>
 
 In the next graphic the effects of lag and attenuation are shown simultaneously for a flood hydrograph passing through a
@@ -93,5 +93,5 @@ outflow hydrograph is that it is spread out with a decreased peak and longer bas
 would be the same except for infiltration losses, which for short flooding events are generally small.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Attenuation.mp4" type="video/mp4">
+  <source src="/static/video/Attenuation.mp4" type="video/mp4">
 </video>

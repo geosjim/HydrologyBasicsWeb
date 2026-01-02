@@ -5,7 +5,7 @@ hydrograph. For models like HEC-HMS precipitation is defined as a rainfall depth
 intensity), whereas other models like the rational formula use a constant rainfall intensity.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Precipitation.mp4" type="video/mp4">
+  <source src="/static/video/Precipitation.mp4" type="video/mp4">
 </video>
 
 ## Depth
@@ -15,7 +15,7 @@ depths are determined for a given area from either historical records of gages o
 combination of both.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Rainfall_Depth.mp4" type="video/mp4">
+  <source src="/static/video/Rainfall_Depth.mp4" type="video/mp4">
 </video>
 
 ### Spatial Variation of Actual Storms
@@ -27,7 +27,7 @@ location) map of rainfall depth provides the true representation, as of yet we d
 measure this on the ground.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Actual.mp4" type="video/mp4">
+  <source src="/static/video/Actual.mp4" type="video/mp4">
 </video>
 
 The radar rainfall estimates you see on weather maps would appear to be the perfect solution, but they are only
@@ -49,7 +49,7 @@ might occur in the watershed. The basin average method is simple. A rainfall dep
 average of the gages as follows.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Average.mp4" type="video/mp4">
+  <source src="/static/video/Average.mp4" type="video/mp4">
 </video>
 
 This method of computing an average works well where gage data are available. Many agencies, including NOAA, have
@@ -68,7 +68,7 @@ area of influence it has on the watershed. The area of influence is determined f
 all of the area that is closest to a given gage.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Thiessen.mp4" type="video/mp4">
+  <source src="/static/video/Thiessen.mp4" type="video/mp4">
 </video>
 
 The equation is similar to the basin average, but includes the area closest to the gage as a weighting factor.
@@ -102,7 +102,7 @@ storm. For each case the total rainfall depth is the same, and equals the sum of
 different intensities alter the separate volumes of losses and runoff significantly.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Runoff_and_infiltration.mp4" type="video/mp4">
+  <source src="/static/video/Runoff_and_infiltration.mp4" type="video/mp4">
 </video>
 
 ### Hyetographs
@@ -114,7 +114,7 @@ in this manner. A graphic representation of such an event is referred to as a ra
 the figure below.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Hyetograph.mp4" type="video/mp4">
+  <source src="/static/video/Hyetograph.mp4" type="video/mp4">
 </video>
 
 A hyetograph is defined as either cumulative or incremental values. For the simulation illustrated above the cumulative
@@ -149,7 +149,7 @@ relatively constant intensity throughout, or 3) a high intensity storm where mos
 relatively small duration. The animations below illustrate these differences.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Design_storms.mp4" type="video/mp4">
+  <source src="/static/video/Design_storms.mp4" type="video/mp4">
 </video>
 
 The temporal distribution along with a computed depth from gages, a continuous map, or other estimate provides the basis

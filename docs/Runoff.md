@@ -6,7 +6,7 @@ inch) would be left standing if the watershed were exactly flat. The volume is e
 precipitation depth times the area of the watershed.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Basin_runoff.mp4" type="video/mp4">
+  <source src="/static/video/Basin_runoff.mp4" type="video/mp4">
 </video>
 
 However, watersheds are not flat and so the effective precipitation will run off.
@@ -19,7 +19,7 @@ duration. The transformation of the effective precipitation into a time variatio
 hydrograph.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Transformation.mp4" type="video/mp4">
+  <source src="/static/video/Transformation.mp4" type="video/mp4">
 </video>
 
 If the effective precipitation is 1 inch, then the resulting hydrograph is referred to as a unit hydrograph.
@@ -39,7 +39,7 @@ A hydrograph is described by the following properties:
 You can move your cursor over words below to better understand these different elements.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Hydrographs.mp4" type="video/mp4">
+  <source src="/static/video/Hydrographs.mp4" type="video/mp4">
 </video>
 
 ### Unit Hydrograph
@@ -49,20 +49,20 @@ runoff hydrograph. A unit hydrograph is defined by the runoff associated with a 
 Metric units) effective precipitation depth over the entire watershed.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Unit_hydrograph.mp4" type="video/mp4">
+  <source src="/static/video/Unit_hydrograph.mp4" type="video/mp4">
 </video>
 
 The unit hydrograph is also associated with a time duration, such as 30 minutes, 90 minutes, etc. meaning that the unit
 flowrates would be different for different durations of the 1 inch (cm) of effective precipitation.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Unit_hydrograph_duration.mp4" type="video/mp4">
+  <source src="/static/video/Unit_hydrograph_duration.mp4" type="video/mp4">
 </video>
 
 The unit hydrograph is also affected by the different properties of the watershed such as shape, slope, and land cover.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Unit_hydrograph_comparisons.mp4" type="video/mp4">
+  <source src="/static/video/Unit_hydrograph_comparisons.mp4" type="video/mp4">
 </video>
 
 A unit hydrograph for a basin is derived by measuring the rainfall hyetograph and the runoff at the outlet. The runoff
@@ -74,7 +74,7 @@ result in a hydrograph that is double the unit hydrograph (move your cursor over
 the hydrographs are changed).
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Unit_hydrograph_depth.mp4" type="video/mp4">
+  <source src="/static/video/Unit_hydrograph_depth.mp4" type="video/mp4">
 </video>
 
 ### Synthetic Unit Hydrographs
@@ -101,7 +101,7 @@ from the beginning of the storm runoff to the time of concentration, or time whe
 and contributing to flow at the outlet.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Synthetic.mp4" type="video/mp4">
+  <source src="/static/video/Synthetic.mp4" type="video/mp4">
 </video>
 
 Further it uses a storage coefficient to account for the fact that there is a delayed response to runoff as the
@@ -122,7 +122,7 @@ The definition of time of concentration is the time of travel for water to flow 
 point of the watershed to the outlet.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Timing.mp4" type="video/mp4">
+  <source src="/static/video/Timing.mp4" type="video/mp4">
 </video>
 
 If a rainfall event lasts at least as long as the time of concentration, then it can be said that the watershed is in
@@ -132,7 +132,7 @@ will occur at the time of concentration and then continue level until the rainfa
 will take the time of concentration for the falling limb to recede back to the base flow.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Timing_extended.mp4" type="video/mp4">
+  <source src="/static/video/Timing_extended.mp4" type="video/mp4">
 </video>
 
 Of course it is uncommon for the rainfall to continue over the entire watershed at a uniform intensity throughout. The
@@ -170,7 +170,7 @@ starting the first at time 0, the second at 30 minutes, and the third at 60 minu
 the final runoff hydrograph.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Convolution.mp4" type="video/mp4">
+  <source src="/static/video/Convolution.mp4" type="video/mp4">
 </video>
 
 

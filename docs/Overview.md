@@ -9,7 +9,7 @@ what might occur in the future. The second class of models are referred to as de
 properties about the watershed and stream are used to numerically simulate peak flows.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/General_Modeling.mp4" type="video/mp4">
+  <source src="/static/video/General_Modeling.mp4" type="video/mp4">
 </video>
 
 ## Statistical Models
@@ -72,7 +72,7 @@ infiltration, runoff, and detention basin and river routing to estimate peak flo
 deterministic model is the rainfall depth and rate (intensity).
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Deterministic_modeling.mp4" type="video/mp4">
+  <source src="/static/video/Deterministic_modeling.mp4" type="video/mp4">
 </video>
 
 The rational method and HEC-HMS are two common deterministic models that will be used to describe these
@@ -88,7 +88,7 @@ loss coefficient defined between 0.0 (no runoff) and 1.0 (no losses). The only o
 area, in acres.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/Rational.mp4" type="video/mp4">
+  <source src="/static/video/Rational.mp4" type="video/mp4">
 </video>
 
 The rational hydrograph is defined as a triangle, with the peak flow occurring at the time of concentration and the
@@ -111,7 +111,7 @@ rainfall, losses, runoff transformation and routing. HEC-1 is divided into separ
 illustrated in the diagram below.
 
 <video controls style="border: 2px solid black">
-  <source src="../static/video/HEC-1.mp4" type="video/mp4">
+  <source src="/static/video/HEC-1.mp4" type="video/mp4">
 </video>
 
 The most simple hydrograph analysis problems are solved with a single basin. For a basin, runoff is computed from a
