@@ -1,54 +1,16 @@
 site_name: Hydrologic Modeling Basics
 theme:
   name: material
+  features:
+    - navigation.footer
+markdown_extensions:
+  - toc:
+      permalink: true
 nav:
-    - Home: index.md
-    - Hydrologic Modeling Basics:
-        - Introduction: Overview/Overview.md
-        - Modeling:
-            - General: Overview/General_Modeling.md
-            - Statistical:
-                - Statistical: Overview/Statistical.md
-                - NSS: Overview/NSS.md
-            - Deterministic:
-                - Deterministic: Overview/Deterministic.md
-                - Rational: Overview/Rational.md
-                - HEC-HMS: Overview/HEC_HMS.md
-    - Precipitation:
-        - Introduction: Precipitation/Precipitation.md
-        - Depth:
-            - Data: Precipitation/Depth.md
-            - Actual: Precipitation/Actual.md
-            - Average: Precipitation/Average.md
-            - Thiessen: Precipitation/Thiessen.md
-        - Temporal Distribution:
-            - Time Variance: Precipitation/Temporal_Distribution.md
-            - Effects on Runoff: Precipitation/Effects_on_Runoff.md
-            - Hyetographs: Precipitation/Hyetographs.md
-            - Design Storms: Precipitation/Design_Storms.md
-    - Losses:
-        - Types of Losses: Losses/Types_of_Losses.md
-        - Initial Abstraction: Losses/Initial_Abstractions.md
-        - Infiltration: Losses/Infiltration.md
-        - Simulation Methods:
-            - Simulation Methods: Losses/Simulation_Methods.md
-            - Runoff Coefficient: Losses/Runoff_Coefficient.md
-            - Curve Number: Losses/CN.md
-    - Runoff:
-        - Introduction: Runoff/Runoff.md
-        - Transformation: Runoff/Transformation.md
-        - Hydrographs:
-            - Runoff: Runoff/Hydrograph.md
-            - Unit Hydrograph: Runoff/Unit_Hydrograph.md
-            - Synthetic: Runoff/Synthetic.md
-            - Timing: Runoff/Timing.md
-        - Convolution: Runoff/Convolution.md
-    - Routing:
-        - Introduction: Routing/Routing.md
-        - Storage:
-            - Detention Routing: Routing/Storage.md
-            - Storage Capacity: Routing/Storage_Capacity.md
-            - Discharge: Routing/Discharge.md
-        - River: Routing/River.md
-    - Summary:
-        - Summary: Summary/Summary.md
+  - Home: index.md
+  - Hydrologic Modeling Basics: Overview.md
+  - Precipitation: Precipitation.md
+  - Losses: Losses.md
+  - Runoff: Runoff.md
+  - Routing: Routing.md
+  - Summary: Summary.md
