@@ -4,6 +4,8 @@ The term losses in a hydrologic modeling simulation refers to all of the rainfal
 abstractions, infiltration, evaporation, and transpiration. The kinds of models used for flood runoff are considered short term simulations and therefore losses from evaporation and transpiration are
 considered negligible. For long term simulations where the water balance is over a season or year (beyond the scope of this review) they would be significant and must be considered.
 
+![Losses](static/images/losses.jpg)
+
 ## Initial Abstractions
 
 The initial abstractions are the first losses that must be "satisfied" in a hydrologic simulation before any runoff or
