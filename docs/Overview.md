@@ -8,9 +8,7 @@ on historical records used in statistical models. In other words we use historic
 what might occur in the future. The second class of models are referred to as deterministic models where physical
 properties about the watershed and stream are used to numerically simulate peak flows.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/General_Modeling.mp4" type="video/mp4">
-</video>
+![type:video](static/video/General_modeling.mp4)
 
 ## Statistical Models
 
@@ -71,9 +69,7 @@ A deterministic model uses physical characteristics and numerical representation
 infiltration, runoff, and detention basin and river routing to estimate peak flows. The driving force behind a
 deterministic model is the rainfall depth and rate (intensity).
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Deterministic_modeling.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Deterministic_modeling.mp4)
 
 The rational method and HEC-HMS are two common deterministic models that will be used to describe these
 processes. Most other numerical models are similar in nature to the methods used by these two.
@@ -87,9 +83,7 @@ same throughout the entire watershed. All losses, including initial abstractions
 loss coefficient defined between 0.0 (no runoff) and 1.0 (no losses). The only other input variable is the drainage
 area, in acres.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Rational.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Rational.mp4)
 
 The rational hydrograph is defined as a triangle, with the peak flow occurring at the time of concentration and the
 total duration of the storm being two times the time of concentration.
@@ -110,9 +104,7 @@ used to model runoff from rainfall. The HEC-HMS (formerly HEC-1) model includes 
 rainfall, losses, runoff transformation and routing. HEC-1 is divided into separate hydrograph computational units as
 illustrated in the diagram below.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/HEC-1.mp4" type="video/mp4">
-</video>
+![type:video](static/video/HEC-1.mp4)
 
 The most simple hydrograph analysis problems are solved with a single basin. For a basin, runoff is computed from a
 defined rainfall depth and temporal distribution, a loss coefficient, and a runoff transformation method. The way these

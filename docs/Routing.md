@@ -32,9 +32,7 @@ the water surface elevation may increase to the point that water spills over an 
 embankment as weir flow. As the flood waters recede the outflow will gradually become less than the inflow and the
 detention basin will empty.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Storage_routing.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Storage_routing.mp4)
 
 In order to numerically simulate storage in a reservoir relationships between elevation and volume of storage and
 elevation and discharge must be defined.
@@ -46,9 +44,7 @@ by calculating the volume of water stored for incremental elevations. In reservo
 water between time steps is determined from the input hydrograph, and then from the storage capacity curve a new water
 surface elevation is determined.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Storage_capacity.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Storage_capacity.mp4)
 
 Surveys conducted at the time of a dam construction are used to develop a storage capacity curve as part of the overall
 design. This information is generally available for existing, larger dams. For smaller detention basins geometric
@@ -64,9 +60,7 @@ level outlets. Spillways are part of any dam construction, but in the case of a 
 may cause flood waters to be temporarily stored, the roadway itself acts as a spillway once the water surface elevation
 reaches the top.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Elevation_Discharge.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Elevation_Discharge.mp4)
 
 Rating curves for hydraulic control structures like culverts and spillways can be computed from simplified equations
 such as the orifice and weir equations. More sophisticated programs such as HY8 or HEC-RAS can also be used to generate
@@ -82,9 +76,7 @@ flows remain within the banks then there will be little or no attenuation. On th
 the banks onto the floodplain, or is "absorbed" by the channel as bank storage, then the attenuation could be
 significant. The following graphics identify how a hydrograph is lagged and/or attenuated under certain conditions.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Attenuation_hydrograph.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Attenuation_hydrograph.mp4)
 
 In the next graphic the effects of lag and attenuation are shown simultaneously for a flood hydrograph passing through a
 natural channel reach. As the flows increase beyond the capacity of the natural channel it spreads out onto the
@@ -92,6 +84,4 @@ floodplain. As the inflow recedes the flows in the floodplain move back into the
 outflow hydrograph is that it is spread out with a decreased peak and longer base time. The area under each hydrograph
 would be the same except for infiltration losses, which for short flooding events are generally small.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Attenuation.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Attenuation.mp4)

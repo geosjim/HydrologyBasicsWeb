@@ -6,6 +6,11 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+plugins:
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
 nav:
   - Home: index.md
   - Hydrologic Modeling Basics: Overview.md

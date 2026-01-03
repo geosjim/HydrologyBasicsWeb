@@ -4,9 +4,7 @@ For deterministic models the precipitation input is the primary catalyst for gen
 hydrograph. For models like HEC-HMS precipitation is defined as a rainfall depth and temporal distribution (time varying
 intensity), whereas other models like the rational formula use a constant rainfall intensity.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Precipitation.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Precipitation.mp4)
 
 ## Depth
 
@@ -14,9 +12,7 @@ It goes without saying that accurately determining rainfall depth is an essentia
 depths are determined for a given area from either historical records of gages or through the use of radar analysis or a
 combination of both.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Rainfall_Depth.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Rainfall_Depth.mp4)
 
 ### Spatial Variation of Actual Storms
 
@@ -26,9 +22,7 @@ watershed, but can be substantially different over just a short distance. While 
 location) map of rainfall depth provides the true representation, as of yet we do not have the capability to accurately
 measure this on the ground.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Actual.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Actual.mp4)
 
 The radar rainfall estimates you see on weather maps would appear to be the perfect solution, but they are only
 estimates of where the rainfall is more intense. While they provide a good picture of where it might be raining harder
@@ -48,9 +42,7 @@ four different gages are within the watershed, or close enough that measured val
 might occur in the watershed. The basin average method is simple. A rainfall depth is determined by taking the numerical
 average of the gages as follows.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Average.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Average.mp4)
 
 This method of computing an average works well where gage data are available. Many agencies, including NOAA, have
 developed maps like the one below from gages using their best information with respect to topography and meteorological
@@ -67,9 +59,7 @@ is still used in the simulation for each model, but it is computed by weighting 
 area of influence it has on the watershed. The area of influence is determined from the Thiessen network, which defines
 all of the area that is closest to a given gage.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Thiessen.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Thiessen.mp4)
 
 The equation is similar to the basin average, but includes the area closest to the gage as a weighting factor.
 
@@ -101,9 +91,7 @@ actually sources to groundwater) and runoff for a high (short duration), medium,
 storm. For each case the total rainfall depth is the same, and equals the sum of the losses and runoff, but the
 different intensities alter the separate volumes of losses and runoff significantly.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Runoff_and_infiltration.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Runoff_and_infiltration.mp4)
 
 ### Hyetographs
 
@@ -113,24 +101,23 @@ time step. For example a tipping bucket rain gage measures a rainfall depth ever
 in this manner. A graphic representation of such an event is referred to as a rainfall hyetograph and is illustrated in
 the figure below.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Hyetograph.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Hyetograph.mp4)
 
 A hyetograph is defined as either cumulative or incremental values. For the simulation illustrated above the cumulative
 and incremental values would be as follows:
 
-Time Cumulative (in.)    Incremental (in.)
-0:00 0 0
-0:05 0.10 0.10
-0:10 0.30 0.20
-0:15 0.70 0.40
-0:20 1.57 0.87
-0:25 2.17 0.60
-0:30 2.62 0.45
-0:35 2.77 0.15
-0:40 2.84 0.07
-0:45 2.86 0.02
+| Time | Cumulative (in.) | Incremental (in.) |
+|------|------------------|-------------------|
+| 0:00 | 0.00             | 0.00              |
+| 0:05 | 0.10             | 0.10              |
+| 0:10 | 0.30             | 0.20              |
+| 0:15 | 0.70             | 0.40              |
+| 0:20 | 1.57             | 0.87              |
+| 0:25 | 2.17             | 0.60              |
+| 0:30 | 2.62             | 0.45              |
+| 0:35 | 2.77             | 0.15              |
+| 0:40 | 2.84             | 0.07              |
+| 0:45 | 2.86             | 0.02              |
 
 During a simulation the amount of rainfall that occurs each time step is processed as a single event and followed
 through the entire simulation. For example if in a 5 minute time interval .4 inches of rain falls, the simulation would
@@ -148,9 +135,7 @@ storms where 1) rainfall begins with a shorter period of higher intensity toward
 relatively constant intensity throughout, or 3) a high intensity storm where most of the rainfall occurs over a
 relatively small duration. The animations below illustrate these differences.
 
-<video controls style="border: 2px solid black">
-  <source src="../static/video/Design_storms.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Design_storms.mp4)
 
 The temporal distribution along with a computed depth from gages, a continuous map, or other estimate provides the basis
 for defining rainfall in a HEC-1 or HMS (or similar deterministic) model. Because of interception and infiltration in
