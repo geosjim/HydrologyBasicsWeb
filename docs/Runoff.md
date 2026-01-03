@@ -5,9 +5,7 @@ runoff. After the initial abstractions and infiltration capacity are reached the
 inch) would be left standing if the watershed were exactly flat. The volume is easily computed as the effective
 precipitation depth times the area of the watershed.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Basin_runoff.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Basin_runoff.mp4")
 
 However, watersheds are not flat and so the effective precipitation will run off.
 
@@ -18,9 +16,7 @@ However, just as important as the volume is the timing of the runoff, including 
 duration. The transformation of the effective precipitation into a time variation of runoff is described by a
 hydrograph.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Transformation.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Transformation.mp4")
 
 If the effective precipitation is 1 inch, then the resulting hydrograph is referred to as a unit hydrograph.
 
@@ -38,9 +34,7 @@ A hydrograph is described by the following properties:
 
 You can move your cursor over words below to better understand these different elements.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Hydrographs.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Hydrographs.mp4")
 
 ### Unit Hydrograph
 
@@ -48,22 +42,16 @@ Most hydrologic models use the unit hydrograph as the basis of converting a comp
 runoff hydrograph. A unit hydrograph is defined by the runoff associated with a unit (1 inch in English units or 1 cm in
 Metric units) effective precipitation depth over the entire watershed.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Unit_hydrograph.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Unit_hydrograph.mp4")
 
 The unit hydrograph is also associated with a time duration, such as 30 minutes, 90 minutes, etc. meaning that the unit
 flowrates would be different for different durations of the 1 inch (cm) of effective precipitation.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Unit_hydrograph_duration.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Unit_hydrograph_duration.mp4")
 
 The unit hydrograph is also affected by the different properties of the watershed such as shape, slope, and land cover.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Unit_hydrograph_comparisons.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Unit_hydrograph_comparisons.mp4")
 
 A unit hydrograph for a basin is derived by measuring the rainfall hyetograph and the runoff at the outlet. The runoff
 hydrograph is then normalized by the area of the watershed and rainfall depth, with the duration corresponding to the
@@ -73,9 +61,7 @@ ordinate is exactly half of the unit hydrograph ordinate. Likewise a depth of 2 
 result in a hydrograph that is double the unit hydrograph (move your cursor over the different storm depths to see how
 the hydrographs are changed).
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Unit_hydrograph_depth.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Unit_hydrograph_depth.mp4")
 
 ### Synthetic Unit Hydrographs
 
@@ -100,9 +86,7 @@ the shape of the watershed. A time area curve defines the percentage of the wate
 from the beginning of the storm runoff to the time of concentration, or time when the entire watershed is in equilibrium
 and contributing to flow at the outlet.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Synthetic.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Synthetic.mp4")
 
 Further it uses a storage coefficient to account for the fact that there is a delayed response to runoff as the
 watershed "absorbs" and then "releases" water for runoff much like a sponge. With a storage coefficient the peak can be
@@ -121,9 +105,7 @@ concentration, or lag time.
 The definition of time of concentration is the time of travel for water to flow from the hydraulically most distant
 point of the watershed to the outlet.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Timing.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Timing.mp4")
 
 If a rainfall event lasts at least as long as the time of concentration, then it can be said that the watershed is in
 equilibrium at the time of concentration, meaning that a drop of outflow is produced at the watershed outlet for every
@@ -131,9 +113,7 @@ drop of rainfall in the watershed. Using an ideal case such as the rational meth
 will occur at the time of concentration and then continue level until the rainfall ceases at which point the watershed
 will take the time of concentration for the falling limb to recede back to the base flow.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Timing_extended.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Timing_extended.mp4")
 
 Of course it is uncommon for the rainfall to continue over the entire watershed at a uniform intensity throughout. The
 rational method does not account for variations in soil moisture and hence infiltration which is why the rational method
@@ -169,9 +149,7 @@ first compute each 30-minute runoff hydrograph (15%, 80%, and 25% of the unit hy
 starting the first at time 0, the second at 30 minutes, and the third at 60 minutes we would add them together to get
 the final runoff hydrograph.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Convolution.mp4" type="video/mp4">
-</video>
+![type:video](static/video/Convolution.mp4")
 
 
 In summary, to compute the runoff of a watershed we follow these steps:
@@ -188,5 +166,5 @@ In summary, to compute the runoff of a watershed we follow these steps:
 10. Using the unit hydrograph and time of concentration (or lag time), compute the total runoff hydrograph for the time step
 11. Using convolution add the hydrographs based on each time step
 12. If we are only interested in the runoff of a single basin we are done. However if we wish to examine multiple sub-basins
-13. for the purposes of defining a detention basin, some other hydraulic structure, or to take advantage of spatially varying watershed properties 
+13. for the purposes of defining a detention basin, some other hydraulic structure, or to take advantage of spatially varying watershed properties
     or rainfall distributions, then we will need to route the computed basin runoff hydrograph and combine them with runoff from other watersheds.

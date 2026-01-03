@@ -16,9 +16,7 @@ separation of losses between initial abstractions and infiltration, whereas for 
 in the next few pages) traditional practice has been to estimate initial abstractions as 20% of the maximum potential
 losses (or watershed storage).
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/InitialAbstractions.mp4" type="video/mp4">
-</video>
+![type:video](static/video/InitialAbstractions.mp4)
 
 ## Infiltration Losses
 
@@ -34,9 +32,7 @@ concrete of an urban environment and so we would expect more infiltration in for
 the tilling of agricultural lands "loosens" the soil making infiltration higher than in areas where soils are more
 compacted or consolidated. 
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/Infiltration.mp4" type="video/mp4">
-</video>
+![type:video](static/video/infiltration.mp4)
 
 ## Simulation Methods
 
@@ -108,6 +104,4 @@ watershed then a composite (area-weighted average) CN should be computed. GIS fi
 many areas and can be used to automate composite CN computations. Move your mouse over the animation below to understand
 better how these calculations are performed.
 
-<video controls style="border: 2px solid black">
-  <source src="/static/video/CNCalculations.mp4" type="video/mp4">
-</video>
+[type:video](static/video/CNCalculations.mp4)
